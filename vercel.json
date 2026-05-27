@@ -1,25 +1,25 @@
 {
-    "crons": [
-        {
-            "path": "/api/warmup",
-            "schedule": "0 20 * * *"
-        },
-        {
-            "path": "/api/warmup",
-            "schedule": "15 1 * * *"
-        },
-        {
-            "path": "/api/warmup",
-            "schedule": "30 6 * * *"
-        },
-        {
-            "path": "/api/warmup",
-            "schedule": "45 11 * * *"
-        }
-    ],
-    "functions": {
-        "api/warmup.ts": {
-            "maxDuration": 30
-        }
+  "crons": [
+    {
+      "path": "/api/warmup",
+      "schedule": "0 20 * * *"
+    },
+    {
+      "path": "/api/warmup",
+      "schedule": "5 1 * * *"
+    },
+    {
+      "path": "/api/warmup",
+      "schedule": "10 6 * * *"
+    },
+    {
+      "path": "/api/warmup",
+      "schedule": "15 11 * * *"
     }
+  ],
+  "functions": {
+    "api/warmup.ts": {
+      "maxDuration": 30
+    }
+  }
 }
